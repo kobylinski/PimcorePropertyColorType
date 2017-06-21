@@ -1,0 +1,10 @@
+{
+  "name": "niepsuj-pimcore-property-color-type",
+  "version": "1.0.0",
+  "author": "niespuj.it",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0"
+  }
+}

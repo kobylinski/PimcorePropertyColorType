@@ -1,0 +1,44 @@
+.x-colorpicker-button { position: relative; border: 1px solid gray; background-image: url("../img/lib/colorpick/checkerboard.png"); }
+
+.x-colorpicker-field .x-form-item-body { position: relative; padding-left: 26px; }
+
+.x-colorpicker-field-swatch { position: absolute; width: 20px; height: 20px; left: 4px; background-image: url("../img/lib/colorpick/checkerboard.png"); top: 0px; bottom: 0px; margin: auto; }
+
+.x-colorpicker-field-swatch-inner { position: absolute; height: 100%; width: 100%; }
+
+/* The actual pop window with the color picker components */
+.x-colorpicker { overflow: visible; }
+
+.x-colorpicker > .x-box-inner { overflow: visible; }
+
+.x-colorpicker .x-form-item-label { text-align: center; }
+
+.x-colopicker-escape-overflow { overflow: visible; }
+
+.x-colopicker-escape-overflow > .x-box-inner { overflow: visible; }
+
+.x-colorpicker-colormap { background-image: url("../img/lib/colorpick/map_gradient.png"); }
+
+.x-colorpicker-colormap-draghandle-container { overflow: visible; z-index: 1; }
+
+.x-colorpicker-colormap-blender { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.x-colorpicker-colormap-draghandle { width: 15px; height: 15px; position: relative; left: -7px; top: -7px; background-image: url("../img/lib/colorpick/drag_circle.png"); }
+
+.x-colorpicker-draghandle-container { width: 20px; }
+
+.x-colorpicker-draghandle-container .x-autocontainer-outerCt { height: 100%; }
+
+.x-colorpicker-draghandle { width: 32px; height: 9px; position: relative; left: -6px; top: -4px; background-image: url("../img/lib/colorpick/pickerslider.png"); background-repeat: no-repeat; z-index: 1; }
+
+.x-colorpicker-hue { background-image: url("../img/lib/colorpick/huegradient.png"); }
+
+.x-colorpicker-hue-gradient { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.x-colorpicker-saturation .x-colorpicker-draghandle-container { background: -moz-linear-gradient(top, #ffffff 0%, #000000 100%); /* FF3.6+ */ background: -webkit-linear-gradient(top, #ffffff 0%, #000000 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #ffffff 0%, #000000 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #ffffff 0%, #000000 100%); /* IE10+ */ background: linear-gradient(to bottom, #ffffff 0%, #000000 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */ }
+
+.x-colorpicker-value .x-colorpicker-draghandle-container { background: -moz-linear-gradient(top, #ff0000 0%, #000000 100%); /* FF3.6+ */ background: -webkit-linear-gradient(top, #ff0000 0%, #000000 100%); /* Chrome10+,Safari5.1+ */ background: -o-linear-gradient(top, #ff0000 0%, #000000 100%); /* Opera 11.10+ */ background: -ms-linear-gradient(top, #ff0000 0%, #000000 100%); /* IE10+ */ background: linear-gradient(to bottom, #ff0000 0%, #000000 100%); /* W3C */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */ }
+
+.x-colorpicker-alpha .x-colorpicker-draghandle-container { background-image: url("../img/lib/colorpick/checkerboard.png"); }
+
+.x-colorpicker-preview { background-image: url("../img/lib/colorpick/checkerboard.png"); }

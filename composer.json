@@ -1,0 +1,19 @@
+{
+	"name": "niepsuj/pimcore-property-color-type",
+	"type": "pimcore-plugin",
+	"license": "GPL-3.0",
+	"autors": [
+		{
+			"name": "Marek Kobyliński",
+			"email": "marek@niepsuj.it"
+		}
+	],
+	"require":{
+		"pimcore/installer-plugin": "^1.5"
+	},
+	"autoload": {
+		"psr-4": {
+			"PimcorePropertyColorType\\": "lib"
+		}
+	}
+}
